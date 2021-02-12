@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(255, 0, 98);
+}
+.box-one{
+    float: left;
+    margin-top: 100px;
+    margin-right: 20px;
+    width: 350px;
+    height: 190px;
+    background-color: #fdc60e;
+    border-radius: 10px;
+}
+.box-one:hover{
+    float: left;
+    margin-top: 100px;
+    margin-right: 20px;
+    width: 350px;
+    height: 190px;
+    background-color:black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.box-one h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 55px;
+    color: white;
+    text-align: center;
+    letter-spacing: -0.9px;
+}
+.box-one p{
+    letter-spacing: 0.1px;
+    color: #f1e5be;
+    text-align: center;
+    font-size: 16px;
+}
+.box-one .icona{
+    border: 5px solid rgba(255, 255, 255, 0.849);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-top: -22px;
+    background: white;
+    margin-left: 144px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.box-one .icona:hover{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-top: -22px;
+    background: white;
+    margin-left: 144px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: 5px solid rgba(255, 255, 255, 0.918);
+    transition: 0.5s;
+}
+.box-one .icona .icon{
+    margin-top: 20px;
+    color: red;
+}
